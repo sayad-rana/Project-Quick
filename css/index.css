@@ -1,0 +1,147 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 16px;
+}
+
+p{
+    color: #3b506c;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* -------Navber---------- */
+
+header{
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 20px 18px -18px;
+}
+.nav-main{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-main img{}
+nav{}
+nav ul{
+    margin: 0;
+    padding: 0;   
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 0 0 50px; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#3b506c;
+    font-weight: 600;
+    font-size: 18px; 
+}
+
+/* ----------Banner Start ------------*/
+
+
+.banner{
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+.banner h1{
+    text-align: center;
+    font-size: 70px;
+    color: #3b506c;
+    margin: 0;
+}
+
+.banner h1 span{
+    color: rgb(0, 42, 255);
+}
+
+.banner p{
+    text-align: center;
+    color: #3b506c;
+    font-size: 18px;
+}
+
+.banner img{
+    width: 60%;
+    margin: auto;
+    margin: 30px 0 0 0;
+}
+
+
+/* --------Text Section---------- */
+
+
+.complete{
+    display: flex;
+}
+
+.complete-child{
+    width: 50%;
+    text-align: right;
+    padding: 20px;
+}
+
+.complete-child h2{
+   font-size: 40px;
+   color: #3b506c;
+}
+
+.child1{
+    color: red !important;
+}
+
+.child2{
+    text-align: left;
+}
+
+.complete-child p{}
+
+
+/* --------crad---------- */
+
+.crad{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.crad-child{
+    width: 320px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    margin: 20px;
+}
+.crad-child img{
+    width: 100%;
+    height: 200px;
+}
+.crad-child h3{
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: 8px;
+    color: #3b506c;
+}
+.crad-child p{
+   font-family: sans-serif;
+   font-size: 14px;
+}
+
+.crad img:hover{
+    transform: scale(1.1);
+    background-color: rgb(127, 255, 165);
+}
+
+
+/*------About Section------- */
+
+
